@@ -18,7 +18,7 @@ function App() {
       <Sidebar />
       <div className="flex flex-col flex-1">
         <Header />
-        <ChatWindow />
+        <ChatWindow messages={messages} />
         <MessageInput onSend={handleSend} />
 
       </div>
