@@ -7,6 +7,8 @@ export default function Sidebar() {
         <li className="hover:text-teal-400 cursor-pointer"># random</li>
         <li className="hover:text-teal-400 cursor-pointer">GIFs 🎉</li>
       </ul>
+      
     </div>
+    
   )
 }
